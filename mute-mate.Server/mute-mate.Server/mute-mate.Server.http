@@ -1,0 +1,6 @@
+@mute_mate.Server_HostAddress = http://localhost:5099
+
+GET {{mute_mate.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

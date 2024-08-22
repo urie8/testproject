@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mute-mate.Server.props" />
+</Project>

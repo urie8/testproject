@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5iHqiJnHKZU4eb7NEhTOd/d+onZsdrnwtji5tJ5+GSw=",
+  "Source": "mute-mate.Server",
+  "BasePath": "_content/mute-mate.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
