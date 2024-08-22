@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-function Login() {
+function login() {
   // state variables for email and passwords
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -114,4 +114,4 @@ function Login() {
     </div>
   );
 }
-export default Login;
+export default login;

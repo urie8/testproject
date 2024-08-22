@@ -141,3 +141,4 @@ C:\Users\dionp\OneDrive\Desktop\Mute-Mate\mute-mate.Server\mute-mate.Server\obj\
 C:\Users\dionp\OneDrive\Desktop\Mute-Mate\mute-mate.Server\mute-mate.Server\obj\Debug\net8.0\mute-mate.Server.pdb
 C:\Users\dionp\OneDrive\Desktop\Mute-Mate\mute-mate.Server\mute-mate.Server\obj\Debug\net8.0\mute-mate.Server.genruntimeconfig.cache
 C:\Users\dionp\OneDrive\Desktop\Mute-Mate\mute-mate.Server\mute-mate.Server\obj\Debug\net8.0\ref\mute-mate.Server.dll
+C:\Users\dionp\OneDrive\Desktop\Mute-Mate\mute-mate.Server\mute-mate.Server\obj\Debug\net8.0\mute-mate.Server.sourcelink.json

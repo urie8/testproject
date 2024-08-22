@@ -12,7 +12,7 @@ import CategoryQuiz from "./pages/CategoryQuiz";
 import LogIn from "./pages/LogIn";
 import MyPage from "./pages/MyPage";
 import Practise from "./pages/Practise";
-import Register from "./pages/Register";
+import Register from "./pages/register";
 import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter(
