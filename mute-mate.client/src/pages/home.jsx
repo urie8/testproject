@@ -1,7 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 //import './Home.css'; // Import the CSS file
 
 function home() {
+  const navigate = useNavigate();
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
+
   return (
     <>
       <div className="container">
@@ -10,7 +16,9 @@ function home() {
         <div className="img-homepage">{/*Insert image here*/}</div>
         <div className="button-container">
           <button className="button">Play</button>
-          <button className="button">Sign up</button>
+          <button className="button" onClick={handleRegisterClick}>
+            Sign up
+          </button>
         </div>
       </div>
     </>
