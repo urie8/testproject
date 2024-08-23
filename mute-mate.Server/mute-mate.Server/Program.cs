@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using mute_mate.Server.Data.Repo;
 using MuteMate.Server.Data;
 using MuteMate.Server.Models;
 using System.Security.Claims;
@@ -29,6 +30,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<QuizRepo>();
 
 var app = builder.Build();
 

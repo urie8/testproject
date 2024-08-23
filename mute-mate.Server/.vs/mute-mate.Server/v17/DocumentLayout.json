@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Migrations\\20240823133923_seedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mute-mate.Server\\Migrations\\20240823133923_seedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\data\\mutematedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\data\\mutematedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\data\\repo\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\data\\repo\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\models\\answermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\models\\answermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|solutionrelative:mute-mate.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75224937-7782-4799-8DA8-12FA8F8BA945}|mute-mate.Server\\mute-mate.Server.csproj|c:\\users\\norah\\source\\repos\\mute-mate\\mute-mate.server\\mute-mate.server\\migrations\\20240822081814_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +86,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "QuizController.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Controllers\\QuizController.cs",
-              "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Controllers\\QuizController.cs*",
-              "RelativeToolTip": "mute-mate.Server\\Controllers\\QuizController.cs*",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEsAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "mute-mate.Server\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwEwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:54:15.749Z",
+              "WhenOpened": "2024-08-23T13:48:02.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "20240823133923_seedData.cs",
+              "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Migrations\\20240823133923_seedData.cs",
+              "RelativeDocumentMoniker": "mute-mate.Server\\Migrations\\20240823133923_seedData.cs",
+              "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Migrations\\20240823133923_seedData.cs",
+              "RelativeToolTip": "mute-mate.Server\\Migrations\\20240823133923_seedData.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:39:23.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Controllers\\WeatherForecastController.cs",
@@ -112,20 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuizRepo.cs",
-              "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Data\\Repo\\QuizRepo.cs",
-              "RelativeDocumentMoniker": "mute-mate.Server\\Data\\Repo\\QuizRepo.cs",
-              "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Data\\Repo\\QuizRepo.cs*",
-              "RelativeToolTip": "mute-mate.Server\\Data\\Repo\\QuizRepo.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:33:46.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "mute-mate.Server\\Properties\\launchSettings.json",
@@ -137,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "mute-mate.Server.http",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.http",
               "RelativeDocumentMoniker": "mute-mate.Server\\mute-mate.Server.http",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "mute-mate.Server\\appsettings.Development.json",
@@ -173,32 +173,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Program.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Program.cs",
               "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Program.cs",
               "RelativeToolTip": "mute-mate.Server\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T08:14:41.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\appsettings.json",
               "RelativeDocumentMoniker": "mute-mate.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\appsettings.json",
               "RelativeToolTip": "mute-mate.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-22T08:14:15.736Z"
+              "WhenOpened": "2024-08-22T08:14:15.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "QuestionModel.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Models\\QuestionModel.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Models\\QuestionModel.cs",
@@ -211,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Models\\ApplicationUser.cs",
@@ -224,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AnswerModel.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Models\\AnswerModel.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Models\\AnswerModel.cs",
@@ -237,13 +238,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MuteMateDbContext.cs",
               "DocumentMoniker": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Data\\MuteMateDbContext.cs",
               "RelativeDocumentMoniker": "mute-mate.Server\\Data\\MuteMateDbContext.cs",
               "ToolTip": "C:\\Users\\norah\\source\\repos\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\Data\\MuteMateDbContext.cs",
               "RelativeToolTip": "mute-mate.Server\\Data\\MuteMateDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAOICAAAAAAAAAAAAAAEDAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T08:12:50.792Z",
               "EditorCaption": ""

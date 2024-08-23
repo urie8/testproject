@@ -759,7 +759,7 @@ new QuestionModel
                },
                 new AnswerModel
                 {
-                    Id = 64,
+                    Id = 65,
                     Answer = "I",
                     IsCorrect = false,
                     QuestionId = 18,
@@ -767,7 +767,7 @@ new QuestionModel
                 //för bokstaven Q
                 new AnswerModel
                 {
-                    Id = 65,
+                    Id = 66,
                     Answer = "M",
                     IsCorrect = false,
                     QuestionId = 18,
