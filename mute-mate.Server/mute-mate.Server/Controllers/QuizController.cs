@@ -26,21 +26,21 @@ namespace mute_mate.Server.Controllers
         }
 
         [HttpGet("GetCategoryColors")]
-
-            public async Task<IActionResult> GetCategoryColorsAsync()
+        public async Task<IActionResult> GetCategoryColorsAsync()
         {
-
             List<QuestionModel> categoryColors = await _quizRepo.GetCategoryColor();
-            if (categoryColors == null) {
+            if (categoryColors == null)
+            {
                 return NotFound();
-
             }
             else
             {
-                return Ok(categoryColors);
+                var responsesJson = JsonSerializer.Serialize(categoryColors, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
             }
-
         }
+
+
 
 
         [HttpGet("GetCategoryLetters")]
@@ -55,8 +55,12 @@ namespace mute_mate.Server.Controllers
 
             }
             else
+
             {
-                return Ok(categoryLetters);
+
+                var responsesJson = JsonSerializer.Serialize(categoryLetters, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
+                //return Ok(categoryLetters);
             }
 
         }
@@ -73,7 +77,10 @@ namespace mute_mate.Server.Controllers
             }
             else
             {
-                return Ok(categoryAnimals);
+
+                var responsesJson = JsonSerializer.Serialize(categoryAnimals, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
+                //return Ok(categoryAnimals);
             }
 
         }
