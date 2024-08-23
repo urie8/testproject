@@ -1,32 +1,4 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-// import logo from "../images/MuteMateLogo.png";
-// import "../navbar.css";
-// import Hamburger from "hamburger-react";
-// import { useClickAway } from "react-use";
-// import { useRef } from "react";
-// import { useState } from "react";
-// import { AnimatePresence, motion } from "framer-motion";
 
-// function Navbar() {
-//   const [isOpen, setOpen] = useState(false);
-
-//   const ref = useRef(null); //använder en hook från React-use som kollar om en användare har klickat utan för menyn.
-
-//   useClickAway(ref, () => setOpen(false));
-
-//   return (
-//     <>
-//       <div className="navbar-wrapper">
-//         <img src={logo} alt="Logo" className="navbar-logo" />
-//         <div className="mute-mate-text">MUTE MATE</div>
-//           <Hamburger className= "hamburger-react" />
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Navbar;
 
 import React from "react";
 import { NavLink } from "react-router-dom";
@@ -50,6 +22,7 @@ function Navbar() {
 
   return (
     <>
+
       <div className="navbar-wrapper" ref={ref}>
         <NavLink to="/">
           <img src={logo} alt="Logo" className="navbar-logo" />
@@ -110,8 +83,10 @@ function Navbar() {
           )}
         </AnimatePresence>
       </div>
+n
     </>
   );
+
 }
 
 export default Navbar;

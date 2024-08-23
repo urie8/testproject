@@ -6,11 +6,11 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import MainLayout from "./layouts/MainLayout";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import CategoryPractise from "./pages/CategoryPractise";
 import CategoryQuiz from "./pages/CategoryQuiz";
-import LogIn from "./pages/LogIn";
-import MyPage from "./pages/MyPage";
+import LogIn from "./pages/login";
+import MyPage from "./pages/myPage";
 import Practise from "./pages/Practise";
 import Register from "./pages/register";
 import NotFound from "./pages/NotFound";
