@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { ENDPOINTS } from "../api/apiEndpoints";
 
 function Register() {
   // state variables for email and passwords
@@ -37,7 +38,7 @@ function Register() {
       // clear error message
       setError("");
       // post data to the /register api
-      fetch("//register", {
+      fetch(ENDPOINTS.REGISTER, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

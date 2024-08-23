@@ -4,6 +4,7 @@ function Navbar() {
       <div id="navbar">Hej</div>
     </>
   );
+
 }
 
 export default Navbar;

@@ -1,6 +1,15 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+//import './Home.css'; // Import the CSS file
+
+function home() {
+  const navigate = useNavigate();
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
+
 import React, { useState, useEffect } from 'react';
 import "../Styles/Home.css";
-
 
 function home() {
 
@@ -13,8 +22,10 @@ function home() {
         </div>
         <div className="img-homepage"></div>
         <div className="button-container">
-          <button>Play</button>
-          <button>Sign up</button>
+          <button className="button">Play</button>
+          <button className="button" onClick={handleRegisterClick}>
+            Sign up
+          </button>
         </div>
       </div>
 
