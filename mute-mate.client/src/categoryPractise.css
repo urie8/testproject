@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7fb869;
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .option-img {
+    max-width: 6rem;
+    max-height: 6rem;
+    margin-bottom: 1rem;
+    border: 0, 3px solid black;
+    border-radius: 10px;
+  }
+  .option-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.option-img {
+  max-width: 16rem;
+  max-height: 16rem;
+  margin-bottom: 1rem;
+  border: 0, 3px solid black;
+  border-radius: 10px;
+  padding-left: 2rem;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head-text {
+  color: #c5d7d7;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+}
+.choose-text {
+  text-align: center;
+}
