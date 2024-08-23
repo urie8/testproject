@@ -1,5 +1,10 @@
 function Footer() {
-  return <></>;
+
+  return (
+    <>
+      <div id="footer">Hej</div>
+    </>
+  );
 }
 
 export default Footer;

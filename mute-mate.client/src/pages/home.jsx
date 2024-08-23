@@ -8,12 +8,19 @@ function home() {
     navigate("/register");
   };
 
+import React, { useState, useEffect } from 'react';
+import "../Styles/Home.css";
+
+function home() {
+
   return (
     <>
       <div className="container">
-        <h1 className="title">Mute Mate</h1>
-        <p className="tagline">Say Less, Express More</p>
-        <div className="img-homepage">{/*Insert image here*/}</div>
+        <div className='text-container'>
+          <div><h1 className="title">Mute <br />Mate</h1></div>
+          <div><h1 className="tagline">Say Less, Express More</h1></div>
+        </div>
+        <div className="img-homepage"></div>
         <div className="button-container">
           <button className="button">Play</button>
           <button className="button" onClick={handleRegisterClick}>
@@ -21,8 +28,11 @@ function home() {
           </button>
         </div>
       </div>
+
+      
     </>
   );
+ 
 }
 
 export default home;
