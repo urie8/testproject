@@ -1,0 +1,21 @@
+@media (min-width: 390px) and (max-width: 844px) {
+
+.login-text {
+    font-size: 30px;
+    color: #58CC02;
+    text-align: center;
+    font-family: 'Neue';
+    margin-top: 70px;
+}
+
+    span{
+        font-size: 12px;
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
