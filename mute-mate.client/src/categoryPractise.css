@@ -22,10 +22,8 @@ body {
 .option-img {
   max-width: 16rem;
   max-height: 16rem;
-  margin-bottom: 1rem;
-  border: 0, 3px solid black;
-  border-radius: 10px;
-  padding-left: 2rem;
+  background-color: #fefee3;
+  margin: 1rem;
 }
 .page-wrapper {
   display: flex;
@@ -33,14 +31,21 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
-.head-text {
-  color: #c5d7d7;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  text-align: center;
-}
 .choose-text {
   text-align: center;
+  color: #fefee3;
+  padding-bottom: 1rem;
+}
+.img-container {
+  background-color: #fefee3;
+  max-width: 20rem;
+  max-height: 25rem;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.option-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
