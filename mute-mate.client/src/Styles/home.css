@@ -25,12 +25,11 @@ body{
         display: none;
       }
 
-    #navbar {
+    .container-navbar {
         display: none;
       }
 
     body {
-        color: black;
         width: 100%;
         height: 100%;
     }
@@ -38,7 +37,8 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100%;
+        min-height: 100vh;
+        background-color: white;
     
     }
     .text-container {
@@ -86,7 +86,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        
 
     }
 
@@ -104,6 +104,14 @@ button {
     }
     .button-container button:last-child {
         margin-top: 15px; 
+    }
+
+    .signIn-btn {
+        padding: 20px;
+        font-size: 20px;
+        font-weight: lighter;
+        color:blue;
+
     }
 }
 

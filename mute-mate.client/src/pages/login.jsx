@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ENDPOINTS } from "../api/apiEndpoints";
+import "../Styles/login.css";
 
 function Login() {
   // state variables for email and password
@@ -66,7 +67,8 @@ function Login() {
 
   return (
     <div className="containerbox">
-      <h3>Login</h3>
+      <h3 className="login-text">Login</h3>
+      <div className="img-container"></div>
       <form onSubmit={handleSubmit}>
         <div>
           <label className="forminput" htmlFor="email">
@@ -102,8 +104,9 @@ function Login() {
             checked={rememberme}
             onChange={handleChange}
           />
-          <span>Remember Me</span>
         </div>
+        <span>Remember Me</span>
+        <div className="btn-container">
         <div>
           <button type="submit">Login</button>
         </div>
@@ -112,6 +115,8 @@ function Login() {
             Register
           </button>
         </div>
+        </div>
+
       </form>
       {error && <p className="error">{error}</p>}
     </div>
