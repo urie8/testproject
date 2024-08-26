@@ -31,6 +31,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddScoped<UserAnswerRepo>();
+
 builder.Services.AddScoped<QuizRepo>();
 
 var app = builder.Build();

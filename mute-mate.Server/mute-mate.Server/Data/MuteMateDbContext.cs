@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using mute_mate.Server.Models;
 using MuteMate.Server.Models;
 
 namespace MuteMate.Server.Data
@@ -11,6 +12,8 @@ namespace MuteMate.Server.Data
         {
 
         }
+
+        public DbSet<UserAnswerModel> UserAnswers { get; set; }
         public DbSet<QuestionModel> Questions { get; set; }
         public DbSet<AnswerModel> Answers { get; set; }
 
