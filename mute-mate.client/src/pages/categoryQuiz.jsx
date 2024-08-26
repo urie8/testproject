@@ -4,9 +4,7 @@ import CategoryPractiseQuiz from "../components/CategoryPractiseQuiz";
 function categoryQuiz() {
   return (
     <>
-      <CategoryPractiseQuiz 
-      message="Let´s quiz"
-      linkTo={"/quiz"}/>
+      <CategoryPractiseQuiz message="Let´s quiz" linkTo={"/quiz"} />
     </>
   );
 }
