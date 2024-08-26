@@ -16,23 +16,27 @@ function CategoryPractiseQuiz({ message, linkTo }) {
       <div className="page-wrapper">
         <h2 className="choose-text">{message}</h2>
         <div className="option-img-container">
-          <img
-            className="option-img"
-            src="MiiaImages/color-wheel.png"
-            onClick={() => handleImageClick("colors")}
-          />
-
-          <img
-            className="option-img"
-            src="MiiaImages/abc.png"
-            onClick={() => handleImageClick("letters")}
-          />
-
-          <img
-            className="option-img"
-            src="MiiaImages/livestock.png"
-            onClick={() => handleImageClick("animals")}
-          />
+          <div className="img-container">
+            <img
+              className="option-img"
+              src="MiiaImages/color-wheel.png"
+              onClick={() => handleImageClick("colors")}
+            />
+          </div>
+          <div className="img-container">
+            <img
+              className="option-img"
+              src="MiiaImages/abc.png"
+              onClick={() => handleImageClick("letters")}
+            />
+          </div>
+          <div className="img-container">
+            <img
+              className="option-img"
+              src="MiiaImages/livestock.png"
+              onClick={() => handleImageClick("animals")}
+            />
+          </div>
         </div>
       </div>
     </>

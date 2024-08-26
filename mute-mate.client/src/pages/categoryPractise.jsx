@@ -4,7 +4,7 @@ import "../categoryPractise.css";
 import CategoryPractiseQuiz from "../components/CategoryPractiseQuiz";
 
 function categoryPractise() {
-  // const [page, setPage] =useState("");
+
 
   
   return (
