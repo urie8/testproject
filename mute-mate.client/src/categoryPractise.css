@@ -2,21 +2,26 @@ body {
   margin: 0;
   padding: 0;
   background-color: #7fb869;
+  background-image: url("MiiaImages/flower.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 @media (min-width: 390px) and (max-width: 844px) {
   .option-img {
-    max-width: 6rem;
-    max-height: 6rem;
-    margin-bottom: 1rem;
-    border: 0, 3px solid black;
-    border-radius: 10px;
+    /* max-width: 1rem;
+    max-height: 1rem; */
+    /* margin-bottom: 1rem; */
+    /* border-radius: 10px; */
   }
   .option-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  body {
+    background-image: none;
   }
 }
 .option-img {
