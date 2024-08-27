@@ -68,21 +68,19 @@ function Register() {
   return (
     <div className="register-container">
       <div className="containerbox">
-        <div className="logoName">
-          Mute <br /> Mate
-        </div>
+      
         {/* <div className="img-container"></div> */}
         <div className="image-container"></div>
 
         <h3 className="register-text">Register</h3>
-        <div className="form-container">
+        <div className="form-container register-form-left">
           <form onSubmit={handleSubmit}>
-            <div>
+           
               <label className="register-label-text" htmlFor="email">
                 Email:
               </label>
-            </div>
-            <div>
+           
+        
               <input
                 type="email"
                 id="email"
@@ -90,13 +88,13 @@ function Register() {
                 value={email}
                 onChange={handleChange}
               />
-            </div>
-            <div>
+       
+           
               <label className="register-label-text" htmlFor="password">
                 Password:
               </label>
-            </div>
-            <div>
+          
+            
               <input
                 type="password"
                 id="password"
@@ -104,13 +102,10 @@ function Register() {
                 value={password}
                 onChange={handleChange}
               />
-            </div>
-            <div>
+          
               <label className="register-label-text" htmlFor="confirmPassword">
                 Confirm Password:
               </label>
-            </div>
-            <div>
               <input
                 type="password"
                 id="confirmPassword"
@@ -118,22 +113,17 @@ function Register() {
                 value={confirmPassword}
                 onChange={handleChange}
               />
-            </div>
-            {error && <p className="error">{error}</p>}
+            {error && <p className="register-error">{error}</p>}
 
             <div className="register-btn-container">
               {" "}
-              <div>
                 <button className="register-button" type="submit">
                   Register
                 </button>
-              </div>
-              <div>
                 {/* <button onClick={handleLoginClick}>Go to Login</button> */}
                 <NavLink to="/login" className="register-login">
                   Already have an account? Log in.
                 </NavLink>
-              </div>
             </div>
           </form>
         </div>
