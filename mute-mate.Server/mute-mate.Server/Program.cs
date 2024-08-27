@@ -36,6 +36,8 @@ builder.Services.AddScoped<UserAnswerRepo>();
 
 builder.Services.AddScoped<QuizRepo>();
 
+builder.Services.AddScoped<QuoteRepo>();
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
