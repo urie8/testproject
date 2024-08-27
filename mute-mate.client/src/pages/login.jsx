@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ENDPOINTS } from "../api/apiEndpoints";
 import "../Styles/login.css";
-
+import { NavLink } from "react-router-dom";
 function Login() {
   // state variables for email and password
   const [email, setEmail] = useState("");
@@ -66,60 +66,65 @@ function Login() {
   };
 
   return (
-    <div className="containerbox">
-      <h3 className="login-text">Login</h3>
-      <div className="img-container"></div>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label className="forminput" htmlFor="email">
-            Email:
-          </label>
-        </div>
-        <div>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={email}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="password">Password:</label>
-        </div>
-        <div>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            value={password}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <input
-            type="checkbox"
-            id="rememberme"
-            name="rememberme"
-            checked={rememberme}
-            onChange={handleChange}
-          />
-        </div>
-        <span>Remember Me</span>
-        <div className="btn-container">
-        <div>
-          <button type="submit">Login</button>
-        </div>
-        <div>
-          <button type="button" onClick={handleRegisterClick}>
-            Register
-          </button>
-        </div>
-        </div>
+    <>
+      <div className="login-container">
+        <div className="containerbox">
+          <h3 className="login-text">Login</h3>
+          {/* <div className="img-container"></div> */}
+          <div className="image-container"></div>
+          <div className="form-container">
+            <form onSubmit={handleSubmit}>
+              <label className="forminput" htmlFor="email">
+                Email:
+              </label>
 
-      </form>
-      {error && <p className="error">{error}</p>}
-    </div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={email}
+                onChange={handleChange}
+              />
+
+              <label className="forminput" htmlFor="password">
+                Password:
+              </label>
+
+              <div>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  value={password}
+                  onChange={handleChange}
+                />
+              </div>
+
+              <div className="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="rememberme"
+                  name="rememberme"
+                  checked={rememberme}
+                  onChange={handleChange}
+                />
+
+                <span class>Remember Me</span>
+                {error && <p className="log-in-error">{error}</p>}
+              </div>
+              {/* <span>Remember Me</span> */}
+              <div className="register-btn-container">
+                <button type="submit">Login</button>
+
+                <NavLink className="register-login" to="/register">
+                  No account? Sign up!
+                </NavLink>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
