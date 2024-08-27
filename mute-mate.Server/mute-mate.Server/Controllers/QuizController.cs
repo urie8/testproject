@@ -84,5 +84,54 @@ namespace mute_mate.Server.Controllers
             }
 
         }
+
+
+
+        [HttpGet("Get5RandomCategoryColor")]
+        public async Task<IActionResult> Get5RandomCategoryColorAsync()
+        {
+            List<QuestionModel> randomCategoryColors = await _quizRepo.Get5RandomCategoryColor();
+            if (randomCategoryColors == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var responsesJson = JsonSerializer.Serialize(randomCategoryColors, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
+            }
+        }
+
+        [HttpGet("Get5RandomCategoryAnimals")]
+        public async Task<IActionResult> Get5RandomCategoryAnimalsAsync()
+        {
+            List<QuestionModel> randomCategoryAnimals = await _quizRepo.Get5RandomCategoryAnimals();
+            if (randomCategoryAnimals == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var responsesJson = JsonSerializer.Serialize(randomCategoryAnimals, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
+            }
+        }
+
+
+        [HttpGet("Get5RandomCategoryLetters")]
+        public async Task<IActionResult> Get5RandomCategoryLettersAsync()
+        {
+            List<QuestionModel> randomCategoryLetters = await _quizRepo.Get5RandomCategoryLetters();
+            if (randomCategoryLetters == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var responsesJson = JsonSerializer.Serialize(randomCategoryLetters, _jsonSerializerOptions);
+                return Content(responsesJson, "application/json");
+            }
+        }
+
     }
 }
