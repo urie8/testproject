@@ -1,21 +1,52 @@
-@media (min-width: 390px) and (max-width: 844px) {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.login-text {
+@media (min-width: 390px) and (max-width: 844px) {
+  .login-text {
     font-size: 30px;
-    color: #58CC02;
+    color: #fefee3;
     text-align: center;
-    font-family: 'Neue';
+    font-family: "Neue";
     margin-top: 70px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  .log-in-error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .checkbox-container {
+    display: flex;
+  }
+
+  .forminput {
+    font-family: "Roboto";
+  }
+
+  .form-wrapper{
+    display: flex;
+  }
+
+
 }
 
-    span{
-        font-size: 12px;
-    }
+/*    Desktop */
+@media (min-width: 845px) {
+  .login-container {
+    display: flex;
+    justify-content: center;
+  }
 
-    .error {
-        color: red;
-        font-size: 14px;
-        text-align: center;
-        margin-top: 20px;
-    }
+  .checkbox-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .log-in-error {
+    color: red;
+  }
 }

@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
 @font-face {
     font-family: 'Neue';
     src: url('../Fonts/Neue Haas Grotesk/Display/NeueHaasGroteskDisplay-Medium.otf') format('ttf');
@@ -25,9 +29,9 @@ body{
         display: none;
       }
 
-    .container-navbar {
+     /* .container-navbar {
         display: none;
-      }
+      }  */
 
     body {
         width: 100%;
@@ -95,11 +99,11 @@ button {
         width: 300px;
         height: 50px;
         border-radius: 50px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: "Robot";
         font-size: 20px;
-        color: white;
-        background-color: #58CC02; 
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        color: black;
+        background-color: #F1F0A0; 
+        border: 1px solid black;
     
     }
     .button-container button:last-child {
@@ -114,5 +118,7 @@ button {
 
     }
 }
+
+
 
 

@@ -2,8 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/MuteMateLogo.png";
 import vines from "../images/vines.png";
+import banan from "../images/banan1.png";
+import vinesnoborder from "../images/vinenoborder.png";
 
-import "../navbar.css";
+import "../Styles/navbar.css";
 import Hamburger from "hamburger-react";
 import { useClickAway } from "react-use";
 import { useRef } from "react";
@@ -22,11 +24,32 @@ function Navbar() {
     <>
       <div className="container-navbar">
         <div className="navbar-wrapper" ref={ref}>
-          <NavLink to="/">
-            <img src={logo} alt="Logo" className="navbar-logo" />
-          </NavLink>
-          {/* <img src={logo} alt="Logo" className="navbar-logo" /> */}
-          <div className="mute-mate-text">MUTE MATE</div>
+          <img src={vinesnoborder} alt="Logo" className="navbar-vine" />
+
+          <div className="title-pic-wrapper">
+            <NavLink to="/">
+              <img src={logo} alt="Logo" className="navbar-logo" />
+            </NavLink>
+            <div className="mute-mate-text">MUTE MATE</div>
+          </div>
+
+          <div className="navbar-link-wrapper">
+            <NavLink className="navbar-text" to="/categoryQuiz">
+              Quiz
+            </NavLink>
+            <NavLink className="navbar-text" to="/categoryPractise">
+              Practice
+            </NavLink>
+            <NavLink className="navbar-text" to="/login">
+              Log in
+              <img src={banan} alt="Logo" className="navbar-banan" />
+            </NavLink>
+
+            {/* <img src={banan} alt="Logo" className="navbar-banan" /> */}
+
+            <img src={vinesnoborder} alt="Logo" className="navbar-vine" />
+          </div>
+
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
