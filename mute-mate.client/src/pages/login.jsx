@@ -100,8 +100,9 @@ function Login() {
                 />
               </div>
 
-              <div className="checkbox-container">
+              <div className="register-checkbox-container">
                 <input
+                  className="checkbox-input"
                   type="checkbox"
                   id="rememberme"
                   name="rememberme"
@@ -109,12 +110,13 @@ function Login() {
                   onChange={handleChange}
                 />
 
-                <span class>Remember Me</span>
-                {error && <p className="log-in-error">{error}</p>}
+                <span className="rememberme-text">Remember Me</span>
+                {/* {error && <p className="log-in-error">{error}</p>} */}
               </div>
+              {error && <p className="log-in-error">{error}</p>}
               {/* <span>Remember Me</span> */}
               <div className="register-btn-container">
-                <button type="submit">Login</button>
+                <button className="login-button" type="submit">Login</button>
 
                 <NavLink className="register-login" to="/register">
                   No account? Sign up!

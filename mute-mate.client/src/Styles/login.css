@@ -2,33 +2,52 @@
 
 @media (min-width: 390px) and (max-width: 844px) {
   .login-text {
-    font-size: 30px;
-    color: #fefee3;
+    font-size: 50px;
+    color: black;
     text-align: center;
-    font-family: "Neue";
-    margin-top: 70px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+        margin-top: 30px;
+    
   }
 
-  span {
-    font-size: 12px;
+  .login-button{
+    margin-bottom: 10px;
   }
+
+  .rememberme-text{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 3px;
+  }
+
+ .login-container{
+  display: flex;
+  justify-content: center;
+ }
 
   .log-in-error {
     color: red;
     font-size: 14px;
     text-align: center;
-    margin-top: 20px;
+    font-family: "Roboto";
   }
-  .checkbox-container {
+  .register-checkbox-container {
     display: flex;
+    gap: 10px;
   }
 
   .forminput {
     font-family: "Roboto";
+    font-size: 20px;
   }
 
   .form-wrapper{
     display: flex;
+  }
+
+  .checkbox-input{
+    width: 20px;
   }
 
 
@@ -41,12 +60,15 @@
     justify-content: center;
   }
 
-  .checkbox-container {
+  .register-checkbox-container {
     display: flex;
     gap: 10px;
   }
 
   .log-in-error {
     color: red;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto";
   }
 }
