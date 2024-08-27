@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mute-mate.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33419000ff8df5dfcbb8bcbe7b5871049960d314")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+971c122fbe78854f8049d53c95f2d85140d008c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("mute-mate.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mute-mate.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

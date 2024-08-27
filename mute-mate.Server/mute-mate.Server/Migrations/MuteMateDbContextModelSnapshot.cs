@@ -1548,6 +1548,91 @@ namespace mute_mate.Server.Migrations
                         });
                 });
 
+            modelBuilder.Entity("mute_mate.Server.Models.QuoteModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("category");
+
+                    b.Property<string>("Quote")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("quote");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Quotes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Category = "Praise",
+                            Quote = "Wow, you’re really on a roll—keep up the great work!"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Category = "Praise",
+                            Quote = "Amazing job! Every step you take is a leap forward!"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Category = "Praise",
+                            Quote = "You’re shining brighter with every try—keep it up!"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Category = "Praise",
+                            Quote = "Fantastic effort! You're making it look easy!"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Category = "Praise",
+                            Quote = "You’re a natural—way to go!"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Category = "Encouragement",
+                            Quote = "It’s okay to take your time—you’re learning and growing!"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Category = "Encouragement",
+                            Quote = "Keep your chin up! Every try brings you closer to success!"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Category = "Encouragement",
+                            Quote = "Don’t worry about mistakes—they help you learn and improve!"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Category = "Encouragement",
+                            Quote = "Take a deep breath and give it another shot—you’ve got this!"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Category = "Encouragement",
+                            Quote = "Every step, no matter how small, is progress!"
+                        });
+                });
+
             modelBuilder.Entity("mute_mate.Server.Models.UserAnswerModel", b =>
                 {
                     b.Property<int>("Id")
