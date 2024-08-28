@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using mute_mate.Server.Models;
 using MuteMate.Server.Models;
+using System.Reflection.Emit;
 
 namespace MuteMate.Server.Data
 {
@@ -16,6 +17,7 @@ namespace MuteMate.Server.Data
         public DbSet<UserAnswerModel> UserAnswers { get; set; }
         public DbSet<QuestionModel> Questions { get; set; }
         public DbSet<AnswerModel> Answers { get; set; }
+        public DbSet<QuoteModel> Quotes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -1358,7 +1360,18 @@ new QuestionModel
                     QuestionId = 37,
                 }
             );
-
+            builder.Entity<QuoteModel>().HasData(
+       new QuoteModel { Id = 1, Quote = "Wow, you’re really on a roll—keep up the great work!", Category = "Praise" },
+       new QuoteModel { Id = 2, Quote = "Amazing job! Every step you take is a leap forward!", Category = "Praise" },
+       new QuoteModel { Id = 3, Quote = "You’re shining brighter with every try—keep it up!", Category = "Praise" },
+       new QuoteModel { Id = 4, Quote = "Fantastic effort! You're making it look easy!", Category = "Praise" },
+       new QuoteModel { Id = 5, Quote = "You’re a natural—way to go!", Category = "Praise" },
+       new QuoteModel { Id = 6, Quote = "It’s okay to take your time—you’re learning and growing!", Category = "Encouragement" },
+       new QuoteModel { Id = 7, Quote = "Keep your chin up! Every try brings you closer to success!", Category = "Encouragement" },
+       new QuoteModel { Id = 8, Quote = "Don’t worry about mistakes—they help you learn and improve!", Category = "Encouragement" },
+       new QuoteModel { Id = 9, Quote = "Take a deep breath and give it another shot—you’ve got this!", Category = "Encouragement" },
+       new QuoteModel { Id = 10, Quote = "Every step, no matter how small, is progress!", Category = "Encouragement" }
+   );
         }
     }
 }

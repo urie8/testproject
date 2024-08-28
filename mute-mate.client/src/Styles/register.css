@@ -2,6 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @media (min-width: 390px) and (max-width: 844px) {
+
+  .register-form-left{
+    margin-left: 10px;
+  }
+.register-container{
+  display: flex;
+  justify-content: center;
+}
+
+  /* input[type="email"],
+  input[type="password"] {
+    width: 25vw;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-bottom: 20px;
+  } */
+
+
     .form-container{
         display:flex;
     }
@@ -10,8 +34,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    min-height: 100vh;
-    background-color: #a4be74;
+    /* min-height: 100vh; */
+    background-color: #fefee3;
+    width: 80vw;
+    border-radius: 20px;
+    border: 1px solid black;
   }
 
   .logoName {
@@ -19,7 +46,6 @@
     color: #fefee3;
     text-align: center;
     font-family: "Neue";
-    margin-top: 70px;
   }
 
   /* .img-container{
@@ -42,15 +68,18 @@
     background-color: #fefee3;
     border: 1px solid black;
     border-radius: 10px;
+    display: none;
   }
 
 .register-text{
       
-    font-size: 20px;
-    color: #fefee3;
+    font-size: 50px;
+    color: black;
     text-align: center;
-    font-family: "Neue";
-    margin-bottom: 5px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+        margin-top: 30px;
+
   
 }
 
@@ -62,10 +91,10 @@
   }
 
 .register-label-text{
-       font-size: 14px;
+       font-size: 18px;
     color: black;
     text-align: left;
-    margin-bottom: 10px;
+    font-family: "Roboto";
 
 }
 
@@ -93,6 +122,10 @@
     margin-top: 10px;
     border-radius: 20px;
   }
+
+  .register-button{
+    margin-bottom: 10px;
+  }
  
 
   button {
@@ -107,11 +140,19 @@
     .register-login {
     font-size: 20px;
     color: rgb(69, 179, 179);
+    margin-bottom: 30px;
   }
 
   .register-login:active {
     text-decoration: underline;
     text-decoration-color: rgb(33, 200, 255);
+  }
+
+   .register-error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Roboto";
   }
 
   
@@ -215,11 +256,12 @@
     background-color: #9b9a45;
   }
 
-  .error {
+  .register-error {
     color: red;
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
+    font-family: "Roboto";
   }
 
   .register-container {
@@ -231,7 +273,6 @@
     font-size: 14px;
     color: black;
     text-align: left;
-    margin-bottom: 10px;
   }
 
   .register-input {

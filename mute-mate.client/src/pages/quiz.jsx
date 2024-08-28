@@ -2,7 +2,9 @@ import QuizComponent from "../components/quizComponent";
 function Quiz() {
   return (
     <>
-      <QuizComponent></QuizComponent>
+      <div className="quizPage-container">
+        <QuizComponent></QuizComponent>
+      </div>
     </>
   );
 }
