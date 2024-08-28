@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj": {}
+    "C:\\Users\\pauli\\Desktop\\Systemutvecklare .Net\\OOP\\MuteMate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj": {
+    "C:\\Users\\pauli\\Desktop\\Systemutvecklare .Net\\OOP\\MuteMate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
+        "projectUniqueName": "C:\\Users\\pauli\\Desktop\\Systemutvecklare .Net\\OOP\\MuteMate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
         "projectName": "mute-mate.Server",
-        "projectPath": "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
-        "packagesPath": "C:\\Users\\dionp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\obj\\",
+        "projectPath": "C:\\Users\\pauli\\Desktop\\Systemutvecklare .Net\\OOP\\MuteMate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
+        "packagesPath": "C:\\Users\\pauli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pauli\\Desktop\\Systemutvecklare .Net\\OOP\\MuteMate\\mute-mate.Server\\mute-mate.Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dionp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pauli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
