@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ENDPOINTS } from "../api/apiEndpoints";
+import "../Styles/quiz.css";
 
 function QuizComponent() {
   const [questions, setQuestions] = useState([]);
@@ -32,13 +33,12 @@ function QuizComponent() {
     }
   }, [questions]);
 
-  // When the user clicks on a question
   function handleClick() {
     // Check if were at the last question if not keep going through the quiz
     setQuestionIndex(questionIndex + 1);
+    console.log(questionIndex);
     setCurrentQuestion(questions[questionIndex]);
     console.log(currentQuestion);
-    console.log(questionIndex);
   }
 
   return (
@@ -51,7 +51,7 @@ function QuizComponent() {
             <h1 className="question-title">
               {currentQuestion.Question || "No Question Available"}
             </h1>
-            <img className="question-img" alt="Question" />
+            <img className="question-img" src={currentQuestion.img} />
             <div className="answer-buttons">
               {currentQuestion.Answers && currentQuestion.Answers.$values ? (
                 currentQuestion.Answers.$values.map((a, index) => (
