@@ -42,7 +42,7 @@ namespace mute_mate.Server.Data.Repo
             }
 
         }
-        public async Task<QuoteModel> GetRandomEncouragementQuote()
+        public async Task<QuoteModel> GetRandomEncouragementQuote() //kommentar
         {
             var encouragementQuote = await context.Quotes.Where(q => q.Category == "Encouragement").ToListAsync();
 
