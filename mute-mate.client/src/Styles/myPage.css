@@ -34,9 +34,9 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    gap: 70px;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    gap: 20px;
+    /* border-bottom: 2px solid black;
+    border-top: 2px solid black; */
     /* background-image: url(../images/vines.png);
     background-repeat: no-repeat;
     background-size: 110%; */
@@ -48,10 +48,14 @@ body {
     margin: 80px 20px 0px 50px;
   }
 
+  .title-profile-container {
+    display: flex;
+  }
+
   .title-profile {
     font-size: 42px;
     font-weight: normal;
-    color: #c5d7d7;
+    color: black;
     font-family: "Fredoka";
   }
 
@@ -68,7 +72,6 @@ body {
 
   .banana-display {
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 20px;
   }
@@ -99,6 +102,16 @@ body {
   .picture-container {
     display: flex;
     justify-content: space-between;
+  }
+  .score-display {
+    display: flex;
+  }
+
+  .Category-alphabet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "fredoka";
   }
 }
 
@@ -186,5 +199,9 @@ body {
   .picture-container {
     display: flex;
     justify-content: space-between;
+  }
+
+  .score-display {
+    display: flex;
   }
 }
