@@ -16,6 +16,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<ApplicationUser>()
     .AddEntityFrameworkStores<MuteMateDbContext>();
 
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", options =>

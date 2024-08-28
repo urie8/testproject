@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using mute_mate.Server.Models;
 using MuteMate.Server.Models;
-using System.Reflection.Emit;
 
 namespace MuteMate.Server.Data
 {
@@ -11,7 +10,8 @@ namespace MuteMate.Server.Data
     {
         public MuteMateDbContext(DbContextOptions<MuteMateDbContext> options) : base(options)
         {
-
+            //Test comment
+            // Test comment 2
         }
 
         public DbSet<UserAnswerModel> UserAnswers { get; set; }
