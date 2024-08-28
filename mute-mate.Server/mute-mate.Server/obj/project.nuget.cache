@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7kFljj6HP1TOQPkF89bYT+hx57O5fTHfxnwONUd7W8XB+7sgu3P8cIM+490JwpU6UvKxGOi6VbwBEduuMRLLg==",
+  "dgSpecHash": "umYfmCUNWfhNGZ0tXENJrhPjjyY0vuRu+2uwWhPOHx9NmZR8H3RAVtV68d/UHvFM6hyxFs0HNZKVDX6kSZ8BOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dionp\\OneDrive\\Desktop\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
+  "projectFilePath": "C:\\Users\\dionp\\OneDrive\\Desktop\\Projects\\Mute-Mate\\mute-mate.Server\\mute-mate.Server\\mute-mate.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dionp\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\dionp\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
